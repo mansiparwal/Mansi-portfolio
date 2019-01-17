@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+      *{
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+      }
+      body{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden
+      }
+      .image {
+        overflow: hidden;
+        height: 100vh;
+        width: 50vw;
+        float: left;
+        position: fixed;
+      }
+      .image img{
+        height: 100vh;
+      }
+      .sidebar{
+        left: 0;
+        width: 50vw;
+        float: right;
+        padding: 20px;
+        background: #1f1f1f;
+        text-align: center;
+        /* min-height: 100vh; */
+        color: white !important;
+      }
+      table{
+        border:none;
+        width: 100%;
+        color:white;
+      }
+      table td:first-child{
+        text-align: right
+      }
+      table td:nth-child(2){
+        text-align: center
+      }
+      .img img{
+          width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image">
+      <img src="img/Mansi.png"/>
+    </div>
+    <div class="sidebar">
+      <h1>
+        <b>Mansi Parwal
+        </b>
+      </h1>
+      <table>
+        <tr>
+          <td>Contact No. :
+          </td>
+          <td>7697427488
+          </td>
+        </tr>
+        <tr>
+          <td>Email ID :
+          </td>
+          <td>mansiparwal@gmail.com
+          </td>
+        </tr>
+        <tr>
+          <td>LinkedIn :
+          </td>
+          <td>Mansi Parwal
+          </td>
+        </tr>
+      </table> 
+      <p>App Development Team
+      </p>        
+      <h1>My Resume
+      </h1>
+      <h2>
+        <u>Education
+        </u>
+      </h2>
+      <p>10th, 12th and Graduation
+        <br>
+        10th - 9.0 CGPA
+        <br>
+        12th - 70.33%
+        <br>
+        Graduation - 7.94 CGPA
+      </p>
+      <h2>
+        <u>Skills
+        </u>
+      </h2>
+      <p>Html
+        <br>
+        CSS
+        <br>
+        Python
+        <br>
+        JAVA
+        <br>
+        DBMS
+      </p>
+      <h1>My Work
+      </h1>
+      <div>
+        <h3>
+          <b>1.Student Attendance Management System
+          </b>
+        </h3>
+        <div class="img">
+          <img src="img/1.png">
+        </div>
+        <div class="img">
+          <img src="img/2.png">
+        </div>
+      </div>
+      <div>
+        <h3>
+          <b>2.Stock Prediction
+          </b>
+        </h3>
+        <div class="img">
+          <img src="img/3.png">
+        </div>
+        <div class="img">
+          <img src="img/4.png">
+        </div>
+      </div>
+      <div>	
+        <div class="center">		
+          <h1>Personal Information
+          </h1>
+        </div>
+        <p class="personal">Name - Mansi Parwal
+        </p>
+        <p class="personal">DOB - 30/09/1997
+        </p>
+        <p class="personal">Father's Name - Sushil Parwal
+        </p>
+        <p class="personal">Mother's Name - Vedmati Gupta
+        </p>
+        <p class="personal">University - Amity University Madhya Pradesh
+        </p>
+        <p class="personal">Address - K.V.No.3 staff qrt. Type3/7 morar cantt Gwalior, MP
+        </p>
+        <button onclick="download()">Download Resume
+        </button>
+        <script> 
+          function download(){
+            alert("No Resume available.");
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
